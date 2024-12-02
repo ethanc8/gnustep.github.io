@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>6 - Adding a Button in the Window &#8212; GNUstep</title>
+    <title>Using the GNUstep MSVC toolchain from MSYS2 &#8212; GNUstep</title>
   
   
   
@@ -47,11 +47,11 @@
     <script src="../../../_static/clipboard.min.js?v=a7894cd8"></script>
     <script src="../../../_static/copybutton.js?v=f281be69"></script>
     <script src="../../../_static/design-tabs.js?v=f930bc37"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'Guides/AppsWithCodeOnly/GettingStarted/6_Buttons';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'Guides/Setup/Windows/using-windows-msvc-msys2';</script>
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="Manuals" href="../../../Manuals/index.html" />
-    <link rel="prev" title="5 - Adding a Window to your Application" href="5_Windows.html" />
+    <link rel="next" title="Building on Windows" href="building-windows-msvc.html" />
+    <link rel="prev" title="Installing the GNUstep MSVC toolchain on Windows" href="installing-windows-msvc.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   <meta name="docsearch:version" content="" />
@@ -300,18 +300,18 @@
   <p class="bd-links__title" role="heading" aria-level="1">Section Navigation</p>
   <div class="bd-toc-item navbar-nav"><p aria-level="2" class="caption" role="heading"><span class="caption-text">Contents</span></p>
 <ul class="current nav bd-sidenav">
-<li class="toctree-l1 has-children"><a class="reference internal" href="../../Setup/index.html">Installation and Setup</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
-<li class="toctree-l2 has-children"><a class="reference internal" href="../../Setup/Linux/index.html">Linux</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
-<li class="toctree-l3"><a class="reference internal" href="../../Setup/Linux/building-linux.html">Building on Linux</a></li>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="../index.html">Installation and Setup</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
+<li class="toctree-l2 has-children"><a class="reference internal" href="../Linux/index.html">Linux</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../Linux/building-linux.html">Building on Linux</a></li>
 </ul>
 </details></li>
-<li class="toctree-l2 has-children"><a class="reference internal" href="../../Setup/Windows/index.html">Windows</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
-<li class="toctree-l3"><a class="reference internal" href="../../Setup/Windows/sdk-setup.html">SDK/Environment setup</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../Setup/Windows/installing-windows-msvc.html">Installing the GNUstep MSVC toolchain on Windows</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../Setup/Windows/using-windows-msvc-msys2.html">Using the GNUstep MSVC toolchain from MSYS2</a></li>
+<li class="toctree-l2 current active has-children"><a class="reference internal" href="index.html">Windows</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="sdk-setup.html">SDK/Environment setup</a></li>
+<li class="toctree-l3"><a class="reference internal" href="installing-windows-msvc.html">Installing the GNUstep MSVC toolchain on Windows</a></li>
+<li class="toctree-l3 current active"><a class="current reference internal" href="#">Using the GNUstep MSVC toolchain from MSYS2</a></li>
 
-<li class="toctree-l3"><a class="reference internal" href="../../Setup/Windows/building-windows-msvc.html">Building on Windows</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../Setup/Windows/ide-setup.html">IDE setup</a></li>
+<li class="toctree-l3"><a class="reference internal" href="building-windows-msvc.html">Building on Windows</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ide-setup.html">IDE setup</a></li>
 </ul>
 </details></li>
 </ul>
@@ -344,14 +344,14 @@
 <li class="toctree-l2"><a class="reference internal" href="../../App/HelpfulWebsites.html">Helpful Websites</a></li>
 </ul>
 </details></li>
-<li class="toctree-l1 current active has-children"><a class="reference internal" href="../index.html">Building Apps from Code Only</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
-<li class="toctree-l2 current active has-children"><a class="reference internal" href="index.html">First Steps in GNUstep GUI Programming</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="1_SharedApplication.html">1 - The shared application object</a></li>
-<li class="toctree-l3"><a class="reference internal" href="2_AppIcon.html">2 - Setting your application’s icon</a></li>
-<li class="toctree-l3"><a class="reference internal" href="3_Menus.html">3 - Menus</a></li>
-<li class="toctree-l3"><a class="reference internal" href="4_PointsSizesRectangles.html">4 - Points, Sizes and Rectangles</a></li>
-<li class="toctree-l3"><a class="reference internal" href="5_Windows.html">5 - Adding a Window to your Application</a></li>
-<li class="toctree-l3 current active"><a class="current reference internal" href="#">6 - Adding a Button in the Window</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../AppsWithCodeOnly/index.html">Building Apps from Code Only</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../AppsWithCodeOnly/GettingStarted/index.html">First Steps in GNUstep GUI Programming</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../AppsWithCodeOnly/GettingStarted/1_SharedApplication.html">1 - The shared application object</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../AppsWithCodeOnly/GettingStarted/2_AppIcon.html">2 - Setting your application’s icon</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../AppsWithCodeOnly/GettingStarted/3_Menus.html">3 - Menus</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../AppsWithCodeOnly/GettingStarted/4_PointsSizesRectangles.html">4 - Points, Sizes and Rectangles</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../AppsWithCodeOnly/GettingStarted/5_Windows.html">5 - Adding a Window to your Application</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../AppsWithCodeOnly/GettingStarted/6_Buttons.html">6 - Adding a Button in the Window</a></li>
 </ul>
 </details></li>
 </ul>
@@ -395,12 +395,12 @@
     <li class="breadcrumb-item"><a href="../../index.html" class="nav-link">Guides</a></li>
     
     
-    <li class="breadcrumb-item"><a href="../index.html" class="nav-link">Building Apps from Code Only</a></li>
+    <li class="breadcrumb-item"><a href="../index.html" class="nav-link">Installation and Setup</a></li>
     
     
-    <li class="breadcrumb-item"><a href="index.html" class="nav-link">First Steps in GNUstep GUI Programming</a></li>
+    <li class="breadcrumb-item"><a href="index.html" class="nav-link">Windows</a></li>
     
-    <li class="breadcrumb-item active" aria-current="page"><span class="ellipsis">6 - Adding a Button in the Window</span></li>
+    <li class="breadcrumb-item active" aria-current="page"><span class="ellipsis">Using the GNUstep MSVC toolchain from MSYS2</span></li>
   </ul>
 </nav>
 </div>
@@ -417,151 +417,85 @@
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section id="adding-a-button-in-the-window">
-<h1>6 - Adding a Button in the Window<a class="headerlink" href="#adding-a-button-in-the-window" title="Link to this heading">#</a></h1>
-<p>We are now going to add a button inside our window. But first, we need to prepare the ground with a very short introduction to the wonderful <code class="docutils literal notranslate"><span class="pre">NSView</span></code> class.</p>
-<section id="a-quick-introduction-to-views">
-<h2>6.1 A Quick Introduction to Views<a class="headerlink" href="#a-quick-introduction-to-views" title="Link to this heading">#</a></h2>
-<p><code class="docutils literal notranslate"><span class="pre">NSView</span></code> is a class whose objects represent a rectangular area in a window. Each <code class="docutils literal notranslate"><span class="pre">NSView</span></code> has its own internal coordinate system; <code class="docutils literal notranslate"><span class="pre">NSView</span></code> provides a complete framework for managing the rectangle represented by the view, its coordinate system, and for drawing and getting user events inside the view’s rectangle.</p>
-<p>Any object which can be displayed (and/or can accept user events) inside a window (such as a button, a text field, a scroll view, a slider, etc) is actually an instance of a subclass of <code class="docutils literal notranslate"><span class="pre">NSView</span></code>. The specific subclass (for example, <code class="docutils literal notranslate"><span class="pre">NSButton</span></code>) implements a specific way of drawing and managing user events inside the view’s rectangle. An unsubclassed <code class="docutils literal notranslate"><span class="pre">NSView</span></code> by default draws nothing and reacts to no user events, even if it contains all the machinery (ready for subclasses to use) to do both.</p>
-<p>When you create a window, the library automatically creates an <code class="docutils literal notranslate"><span class="pre">NSView</span></code> covering the whole content area of the window. This view is called the window’s <em>content view</em>. You can replace the default content view (which is transparent and reacts to no user events) with an <code class="docutils literal notranslate"><span class="pre">NSView</span></code> of your choice (which can be an instance of a subclass of <code class="docutils literal notranslate"><span class="pre">NSView</span></code>, such as a <code class="docutils literal notranslate"><span class="pre">NSButton</span></code> or a <code class="docutils literal notranslate"><span class="pre">NSScrollView</span></code>), but you should not change the rectangle it represents, which must always cover the whole window.</p>
-<p>If you want to have a view which covers only a part of a window, you need to add it as a <em>subview</em> of the content view. We will explore subviews in a forth-coming tutorial; in our first example, we will go for the simplest possible solution avoiding use of subviews: we will create a single <code class="docutils literal notranslate"><span class="pre">NSButton</span></code>, make a window to fit exactly our button, and then replace the default window’s content view with our button. In this way we’ll get a window containing exactly our button. In the next tutorial, we’ll learn how to enclose views one over the other in a subview tree, so that we can put more things in a single window.</p>
-</section>
-<hr class="docutils" />
-<section id="creating-a-button">
-<h2>6.2 Creating a Button<a class="headerlink" href="#creating-a-button" title="Link to this heading">#</a></h2>
-<p>Creating a button is quite easy:</p>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>NSButton *myButton;
-
-myButton = AUTORELEASE ([NSButton new]);
-[myButton setTitle: @&quot;Print Hello!&quot;];
-[myButton sizeToFit];
-</pre></div>
-</div>
-<p><code class="docutils literal notranslate"><span class="pre">setTitle:</span></code> sets the title (string) to be displayed on the button; <code class="docutils literal notranslate"><span class="pre">sizeToFit</span></code> resizes the button so that it fits the title it is displaying.</p>
-<p>Next, we need to set target and action of the button:</p>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>[myButton setTarget: self];
-[myButton setAction: @selector (printHello:)];
-</pre></div>
-</div>
-<p>(<code class="docutils literal notranslate"><span class="pre">self</span></code> will refer to our custom object)</p>
-</section>
-<hr class="docutils" />
-<section id="putting-the-button-in-the-window">
-<h2>6.3 Putting the button in the window<a class="headerlink" href="#putting-the-button-in-the-window" title="Link to this heading">#</a></h2>
-<p>We now need to modify our code to create the window so that it creates a window exactly of the right size to contain our button. First, we need to get the size of the button:</p>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>NSSize buttonSize;
-
-buttonSize = [myButton frame].size;
-</pre></div>
-</div>
-<p><code class="docutils literal notranslate"><span class="pre">frame</span></code> is a method inherited by <code class="docutils literal notranslate"><span class="pre">NSView</span></code> which returns the rectangle enclosing the button (or, more generally, the rectangle enclosing/represented by an <code class="docutils literal notranslate"><span class="pre">NSView</span></code>). The <code class="docutils literal notranslate"><span class="pre">origin</span></code> of this rectangle is meaningless at this point; it is the <code class="docutils literal notranslate"><span class="pre">size</span></code> (which was set by <code class="docutils literal notranslate"><span class="pre">sizeToFit</span></code>) what we want.</p>
-<p>Then, we choose for the window a content rect with the <code class="docutils literal notranslate"><span class="pre">size</span></code> of the button, and with an <code class="docutils literal notranslate"><span class="pre">origin</span></code> of our choice; (100, 100) in this example:</p>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>NSRect rect;
-
-rect = NSMakeRect (100, 100, 
-                   buttonSize.width, 
-                   buttonSize.height);
-</pre></div>
-</div>
-<p>At this point, we just create the window as before, but using this rectangle (full code below). The last thing to do is then replacing the default window content view with our button:</p>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>[myWindow setContentView: myButton];
+  <section id="using-the-gnustep-msvc-toolchain-from-msys2">
+<h1>Using the GNUstep MSVC toolchain from MSYS2<a class="headerlink" href="#using-the-gnustep-msvc-toolchain-from-msys2" title="Link to this heading">#</a></h1>
+<p>The GNUstep MSVC toolchain is a native Windows toolchain, but nothing prevents
+us from using it from a POSIX shell.  This guide is mainly for developers who
+are used to working in a POSIX environment, and want to use the toolchain from a
+POSIX shell.</p>
+<p>One of the advantages of using the toolchain from a POSIX shell, is that we can
+use the GNUstep environment variables, and the <code class="docutils literal notranslate"><span class="pre">gnustep-config</span></code> tool to get the
+flags needed to compile and link with the GNUstep libraries.</p>
+<section id="requirements">
+<h2>Requirements<a class="headerlink" href="#requirements" title="Link to this heading">#</a></h2>
+<p>First we need to install LLVM, to get the clang frontend, and lld. We will be
+using <a class="reference external" href="https://chocolatey.org/">Chocolatey</a> to install it, but you can also
+install it manually using the official installer from the <a class="reference external" href="https://github.com/llvm/llvm-project/releases">GitHub
+releases</a>.</p>
+<p>We also need to install MSYS2, if not already installed.</p>
+<p>In a Administrator Shell (either CMD or Powershell), run the following command:</p>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>choco<span class="w"> </span>install<span class="w"> </span>llvm<span class="w"> </span>msys2
 </pre></div>
 </div>
 </section>
-<hr class="docutils" />
-<section id="source-code">
-<h2>6.4 Source Code<a class="headerlink" href="#source-code" title="Link to this heading">#</a></h2>
-<p>We are ready to show the whole source code (the <code class="docutils literal notranslate"><span class="pre">GNUmakefile</span></code> is the usual one):</p>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>#include &lt;Foundation/Foundation.h&gt;
-#include &lt;AppKit/AppKit.h&gt;
+<section id="setting-the-path-in-bash">
+<h2>Setting the PATH in bash<a class="headerlink" href="#setting-the-path-in-bash" title="Link to this heading">#</a></h2>
+<p>Before we can use the toolchain, we need to add the LLVM and the GNUstep binaries to the PATH.</p>
+<p>I recommend adding the modifications to your <code class="docutils literal notranslate"><span class="pre">~/.bashrc</span></code> or <code class="docutils literal notranslate"><span class="pre">~/.bash_profile</span></code>.
+Open a MSYS2 shell (Windows + R -&gt; msys2.exe), and run the following commands:</p>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span><span class="c1"># Add LLVM and GNUstep binaries to PATH</span>
+<span class="c1"># The paths may be different depending on your installation</span>
+<span class="nb">export</span><span class="w"> </span><span class="nv">PATH</span><span class="o">=</span><span class="nv">$PATH</span>:/c/Program<span class="se">\ </span>Files/LLVM/bin:/c/GNUstep/x64/Debug/bin
 
-@interface MyDelegate : NSObject
-{
-  NSWindow *myWindow;
-}
-- (void) printHello: (id)sender;
-- (void) createMenu;
-- (void) createWindow;
-- (void) applicationWillFinishLaunching: (NSNotification *)not;
-- (void) applicationDidFinishLaunching: (NSNotification *)not;
-@end
-
-@implementation MyDelegate : NSObject 
-- (void) dealloc
-{
-  RELEASE (myWindow);
-}
-
-- (void) printHello: (id)sender
-{
-  printf (&quot;Hello!\n&quot;);
-}
-
-- (void) createMenu
-{
-  NSMenu *menu;
-
-  menu = AUTORELEASE ([NSMenu new]);
-
-  [menu addItemWithTitle: @&quot;Quit&quot;  
-        action: @selector (terminate:)  
-        keyEquivalent: @&quot;q&quot;];
-
-  [NSApp setMainMenu: menu];
-}
-
-- (void) createWindow
-{
-  NSRect rect;
-  unsigned int styleMask = NSTitledWindowMask 
-                           | NSMiniaturizableWindowMask;
-  NSButton *myButton;
-  NSSize buttonSize;
-
-  myButton = AUTORELEASE ([NSButton new]);
-  [myButton setTitle: @&quot;Print Hello!&quot;];
-  [myButton sizeToFit];
-  [myButton setTarget: self];
-  [myButton setAction: @selector (printHello:)];
-
-  buttonSize = [myButton frame].size;
-  rect = NSMakeRect (100, 100, 
-                     buttonSize.width, 
-                     buttonSize.height);
-
-  myWindow = [NSWindow alloc];
-  myWindow = [myWindow initWithContentRect: rect
-                       styleMask: styleMask
-                       backing: NSBackingStoreBuffered
-                       defer: NO];
-  [myWindow setTitle: @&quot;This is a test window&quot;];
-  [myWindow setContentView: myButton];
-}
-
-- (void) applicationWillFinishLaunching: (NSNotification *)not
-{
-  [self createMenu];
-  [self createWindow];
-}
-
-- (void) applicationDidFinishLaunching: (NSNotification *)not;
-{
-  [myWindow makeKeyAndOrderFront: nil];
-}
-@end
-
-int main (int argc, const char **argv)
-{ 
-  [NSApplication sharedApplication];
-  [NSApp setDelegate: [MyDelegate new]];
-
-  return NSApplicationMain (argc, argv);
-}
+<span class="c1"># Source the GNUstep environment</span>
+<span class="nb">source</span><span class="w"> </span>/c/GNUstep/x64/Debug/share/GNUstep/Makefiles/GNUstep.sh
 </pre></div>
 </div>
-<hr class="docutils" />
 </section>
+<section id="hello-world-from-the-command-line">
+<h2>1 Hello World (From the command line)<a class="headerlink" href="#hello-world-from-the-command-line" title="Link to this heading">#</a></h2>
+<p>Open a MSYS2 shell (Windows + R -&gt; msys2.exe), and run the following commands:</p>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span><span class="c1"># Create a directory for our project</span>
+mkdir<span class="w"> </span>hello<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="nb">cd</span><span class="w"> </span>hello
+
+touch<span class="w"> </span>main.m
+</pre></div>
+</div>
+<p>You can now edit <code class="docutils literal notranslate"><span class="pre">main.m</span></code> with your favourite text editor, and add the following code:</p>
+<div class="highlight-objc notranslate"><div class="highlight"><pre><span></span><span class="cp">#import &lt;Foundation/Foundation.h&gt;</span>
+
+<span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">argc</span><span class="p">,</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="kt">char</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">argv</span><span class="p">[])</span><span class="w"> </span><span class="p">{</span>
+<span class="w">	</span><span class="k">@autoreleasepool</span><span class="w"> </span><span class="p">{</span>
+<span class="w">		</span><span class="n">NSLog</span><span class="p">(</span><span class="s">@&quot;Hello, World!&quot;</span><span class="p">);</span>
+<span class="w">	</span><span class="p">}</span>
+<span class="w">	</span><span class="k">return</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p>Now we can compile the program:</p>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>clang<span class="w"> </span>-o<span class="w"> </span>hello<span class="w"> </span><span class="sb">`</span>gnustep-config<span class="w"> </span>--objc-flags<span class="sb">`</span><span class="w"> </span><span class="sb">`</span>gnustep-config<span class="w"> </span>--base-libs<span class="sb">`</span><span class="w"> </span>main.m
+</pre></div>
+</div>
+<p>Or alternatively in two stages:</p>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span><span class="c1"># --objc-flags: output the flags needed to compile Objective-C code</span>
+clang<span class="w"> </span>-c<span class="w"> </span><span class="sb">`</span>gnustep-config<span class="w"> </span>--objc-flags<span class="sb">`</span><span class="w"> </span>main.m
+<span class="c1"># --base-libs: output the flags needed to link with the base library</span>
+clang<span class="w"> </span>-o<span class="w"> </span>hello<span class="w"> </span>main.o<span class="w"> </span><span class="sb">`</span>gnustep-config<span class="w"> </span>--base-libs<span class="sb">`</span>
+</pre></div>
+</div>
+<p>For more information you can run <code class="docutils literal notranslate"><span class="pre">gnustep-config</span> <span class="pre">--help</span></code>.
+If everything went well, you can now run the program:</p>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>./hello
+<span class="c1"># 2023-10-22 00:33:36.049 hello[5916:12508] Hello, World!</span>
+</pre></div>
+</div>
+</section>
+</section>
+<section id="using-the-toolchain-without-msys2">
+<h1>2 Using the toolchain without MSYS2<a class="headerlink" href="#using-the-toolchain-without-msys2" title="Link to this heading">#</a></h1>
+<p>Using a POSIX shell is great for developers accustomed to UNIX-based systems, but not natural in the Windows world.
+If you want to integrate GNUstep into a Visual Studio, or other build system, the best way is to specify the flags manually.</p>
+<p>For more information on how to use the toolchain in Visual Studio, see <a class="reference external" href="https://github.com/gnustep/tools-windows-msvc#using-the-toolchain-in-visual-studio">Using the toolchain in Visual Studio</a> in the projects GitHub readme.</p>
 </section>
 
 
@@ -575,20 +509,20 @@ int main (int argc, const char **argv)
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="5_Windows.html"
+       href="installing-windows-msvc.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">5 - Adding a Window to your Application</p>
+        <p class="prev-next-title">Installing the GNUstep MSVC toolchain on Windows</p>
       </div>
     </a>
     <a class="right-next"
-       href="../../../Manuals/index.html"
+       href="building-windows-msvc.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Manuals</p>
+        <p class="prev-next-title">Building on Windows</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -611,17 +545,21 @@ int main (int argc, const char **argv)
   </div>
   <nav class="bd-toc-nav page-toc" aria-labelledby="pst-page-navigation-heading-2">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#a-quick-introduction-to-views">6.1 A Quick Introduction to Views</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#creating-a-button">6.2 Creating a Button</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#putting-the-button-in-the-window">6.3 Putting the button in the window</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#source-code">6.4 Source Code</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Using the GNUstep MSVC toolchain from MSYS2</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#requirements">Requirements</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#setting-the-path-in-bash">Setting the PATH in bash</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hello-world-from-the-command-line">1 Hello World (From the command line)</a></li>
 </ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#using-the-toolchain-without-msys2">2 Using the toolchain without MSYS2</a></li>
+</ul>
+
   </nav></div>
 
   <div class="sidebar-secondary-item">
 
   <div class="tocsection sourcelink">
-    <a href="../../../_sources/Guides/AppsWithCodeOnly/GettingStarted/6_Buttons.md.txt">
+    <a href="../../../_sources/Guides/Setup/Windows/using-windows-msvc-msys2.md.txt">
       <i class="fa-solid fa-file-lines"></i> Show Source
     </a>
   </div>
